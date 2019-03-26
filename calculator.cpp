@@ -33,7 +33,9 @@ int main()
          case 4:
 
          
-	case 5:
+	 default:
+		cout<<"invalid entry";
+		break;
 
            }
 return 0;
