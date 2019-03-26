@@ -18,6 +18,11 @@ class test
         sum=x+y;
         cout<<sum;
     }
+     int minus()
+    {
+        sum=x-y;
+        cout<<sum;
+    }
  };
 
 int main()
@@ -28,7 +33,7 @@ int main()
     cin>>choice;
     switch (choice){
         case 1:
-		z.first();
+	z.first();
         cin>>z.x;
         z.second();
         cin>>z.y;
@@ -36,6 +41,12 @@ int main()
         break;
 
          case 2:
+        z.first();
+        cin>>z.x;
+        z.second();
+        cin>>z.y;
+        z.minus();
+        break;
          
 
          case 3:
