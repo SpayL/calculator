@@ -23,7 +23,12 @@ class test
         sum=x-y;
         cout<<sum;
     }
- };
+     int modulus()
+    {
+	 modulus=x/y
+         cout<<modulus;
+     }	     
+};
 
 int main()
 {
