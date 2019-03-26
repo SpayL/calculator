@@ -13,6 +13,11 @@ class test
     {
         cout<<"Enter second number\n";
     }
+    int add()
+    {
+        sum=x+y;
+        cout<<sum;
+    }
  };
 
 int main()
@@ -23,6 +28,12 @@ int main()
     cin>>choice;
     switch (choice){
         case 1:
+		z.first();
+        cin>>z.x;
+        z.second();
+        cin>>z.y;
+        z.add();
+        break;
 
          case 2:
          
