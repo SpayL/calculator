@@ -28,7 +28,12 @@ class test
         sum=x*y;
         cout<<sum;
     }
- };
+    int divide()
+    {
+        sum=x/y;
+        cout<<fsum;
+    }
+};
 
 int main()
 {
@@ -63,7 +68,12 @@ int main()
         break; 
 
          case 4:
-
+        z.first();
+        cin>>z.x;
+        z.second();
+        cin>>z.y;
+        z.divide();
+        break;
          
 	 default:
 		cout<<"invalid entry";
