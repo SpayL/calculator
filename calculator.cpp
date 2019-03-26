@@ -23,6 +23,11 @@ class test
         sum=x-y;
         cout<<sum;
     }
+     int mult()
+    {
+        sum=x*y;
+        cout<<sum;
+    }
  };
 
 int main()
@@ -50,7 +55,12 @@ int main()
          
 
          case 3:
-      
+        z.first();
+        cin>>z.x;
+        z.second();
+        cin>>z.y;
+        z.mult();
+        break; 
 
          case 4:
 
