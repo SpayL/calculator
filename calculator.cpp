@@ -36,13 +36,13 @@ class test
     }
 };
 
-int main()
+int main()                               //main function
 {
     test z;
     int choice;
     cout<<"1.Addition\n2.Subtraction\n3.Multiplication\n4.Divition\n";
     cin>>choice;
-    switch (choice){
+    switch (choice){                         //applying switch case
         case 1:
 	z.first();
         cin>>z.x;
