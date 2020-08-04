@@ -5,11 +5,12 @@ class test
 {
     public:int x,y,sum;
             float fsum;
-    void first()
+    void first()                            //define first function
+	    
     {
         cout<<"Enter first number\n";
     }
-    void second()
+    void second()                       //define seconf function
     {
         cout<<"Enter second number\n";
     }
